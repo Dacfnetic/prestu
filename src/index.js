@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Lista from './components/Lista/Lista';
 import reportWebVitals from './reportWebVitals';
+import Signin from './components/Signin/Signin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1 style={{textAlign: 'center'}}>Prestu</h1>
-    <Lista />
+    <Signin />
   </React.StrictMode>
 );
 
